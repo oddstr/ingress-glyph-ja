@@ -1,0 +1,36 @@
+body {
+	font-family: 'Coda', cursive;
+	color: #FFF;
+	background-color:#000;
+}
+h1 {
+	text-shadow: 1px 1px 5px #0F0;
+}
+.glyph-cell {
+	text-align: center;
+	display: inline-block;
+	margin: 5px 5px 30px 5px;
+	width: 285px;
+}
+#google_translate_element {
+	float: right;
+}#g-plus {	float: right;}
+.box{
+        position: relative;
+        width: 100%; 
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box:before{
+        content: "";
+        display: block;
+        padding-top: 100%; 
+    }
+    .box > div {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }﻿
